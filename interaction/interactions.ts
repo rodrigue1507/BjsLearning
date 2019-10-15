@@ -108,7 +108,7 @@ module BABYLON {
             var countSphere = 4;
             var nbrLayer = 10;
 
-            this.ground = Mesh.CreateGround('ground', 512, 512, 1, this.scene);
+            this.ground = Mesh.CreateGround('ground', 600, 600, 1, this.scene);
             this.ground.isPickable = true;
             var std = new StandardMaterial('std', this.scene);
                std.diffuseTexture = new Texture('../assets/textureBois.jpg', this.scene);

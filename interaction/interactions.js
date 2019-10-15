@@ -105,7 +105,7 @@ var BABYLON;
             var countCylindre = 10;
             var countSphere = 4;
             var nbrLayer = 10;
-            this.ground = BABYLON.Mesh.CreateGround('ground', 512, 512, 1, this.scene);
+            this.ground = BABYLON.Mesh.CreateGround('ground', 600, 600, 1, this.scene);
             this.ground.isPickable = true;
             var std = new BABYLON.StandardMaterial('std', this.scene);
             std.diffuseTexture = new BABYLON.Texture('../assets/textureBois.jpg', this.scene);
